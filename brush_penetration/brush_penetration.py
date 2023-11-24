@@ -53,6 +53,7 @@ def brushes(Nb: int, n: int, m: int, n_layers, sigma: float) -> Frame:
 
     frame = Frame(lat, sys, mols, mons, chi_list=chi_list)
     frame.run()
+    print(frame.profile_labels)
 
     return frame
 

@@ -29,12 +29,12 @@ for p in params:
 
 # plt.plot(X[0], 50*X[0]**(-1/3), '--', color='black')
 # plt.plot(X[0], 20*X[0]**(-1/3), '--', color='black')
-plt.plot(X[0], 3000 * X[0] ** (-7 / 3), "--", color="black")
+plt.plot(X[0], 350 * X[0] ** (-2), "--", color="black")
 
 plt.semilogx()
 plt.semilogy()
 plt.legend()
 plt.xlabel("$d$", fontsize=16)
 plt.ylabel("$\Pi(d)$", fontsize=16)
-plt.title("$\sigma = 0.01$, slope -7/3")
+plt.title("$\sigma = 0.01$, slope -2")
 plt.savefig("Pi_d.jpg")
