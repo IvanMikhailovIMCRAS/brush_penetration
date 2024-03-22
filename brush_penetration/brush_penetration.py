@@ -86,4 +86,3 @@ if __name__ == "__main__":
         data = np.array(data).T
         path = os.path.abspath(__file__)
         np.savetxt(f"{path[:path.rfind('/',2)]}/Nb{Nb}n{n}m{m}.txt", data)
-        

@@ -36,5 +36,5 @@ for p in params:
 plt.legend()
 plt.xlabel("$\Pi(d)$", fontsize=16)
 plt.ylabel("$\Omega(d) \cdot L(d)$", fontsize=16)
-plt.title("$\sigma = 0.01$, slope -5/2")
+plt.title("$\sigma = 0.01$")
 plt.savefig("friction_coeff.jpg")
